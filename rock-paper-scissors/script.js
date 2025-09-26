@@ -14,7 +14,7 @@ function humanDecision() {
     return humanChoice;
 }
 
-function game() {
+function playRound() {
     const human = humanDecision();
     const cpu = cpuDecision();
 
@@ -43,5 +43,17 @@ function game() {
     }
 }
 
-game();
+function playGame(playRound){
+    var score = 0;
 
+    if("Human Wins!" == 1){
+        console.log("testHUM")
+    } else if ("CPU Wins!") {
+        console.log("CPUTEST");
+    } else {
+        console.log("TEST")
+    }
+}
+
+playRound()
+playGame()
